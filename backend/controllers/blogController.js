@@ -13,7 +13,7 @@ export const blogPost = catchAsyncErrors(async (req, res, next) => {
   }
   const allowedFormats = ["image/png", "image/jpeg", "image/webp"];
   if (
-    !allowedFormats.includes(mainImage.mimetype) ||
+    !allowedFormats.includes(mainImage.mimetype) ||    
     (paraOneImage && !allowedFormats.includes(paraOneImage.mimetype)) ||
     (paraTwoImage && !allowedFormats.includes(paraTwoImage.mimetype)) ||
     (paraThreeImage && !allowedFormats.includes(paraThreeImage.mimetype))

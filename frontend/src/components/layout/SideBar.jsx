@@ -8,6 +8,7 @@ import { MdDarkMode } from "react-icons/md";
 import axios from "axios";
 import toast from "react-hot-toast";
 import { API_ROOT } from "../utils/constant";
+
 const SideBar = ({ setComponent }) => {
   const [show, setShow] = useState(false);
   const { mode, setMode, setIsAuthenticated, user } = useContext(Context);

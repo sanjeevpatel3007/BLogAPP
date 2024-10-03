@@ -20,7 +20,10 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://b-log-app-sanjeev-patels-projects.vercel.app",
+    origin: "https://b-log-app.vercel.app",
+    
+    // origin: "http://localhost:5173",
+
     methods: ["GET", "PUT", "DELETE", "POST"],
     credentials: true,
   })
