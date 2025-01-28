@@ -64,7 +64,7 @@ Deployment
 The application is deployed on Render. You can access the live version here:     [click](https://b-log-app.vercel.app/)
 
 
-
+// first commit
 
 
 
